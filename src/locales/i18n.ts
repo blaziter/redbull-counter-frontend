@@ -7,6 +7,6 @@ export const locales = {
 export const defaultLocale = 'en';
 
 export async function loadCatalog(locale: string) {
-    const { messages } = await import(`./${locale}.po`);
+    const { messages } = await import(`./${locale}.js`);
     i18n.loadAndActivate({ locale, messages });
 }

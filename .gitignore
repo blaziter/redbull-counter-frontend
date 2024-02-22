@@ -31,4 +31,4 @@ dist-ssr
 .env.production.local
 
 # Translations
-src/locales/*.po
+src/locales/*.js

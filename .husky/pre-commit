@@ -1,1 +1,6 @@
+npm run format
+
+added_files=$(git diff --name-only --cached --diff-filter=d)
+git add ${added_files}
+
 npm test
